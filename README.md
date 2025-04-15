@@ -1,73 +1,98 @@
-# Zomato-Data-Analysis
-📌 Zomato Data Analysis (Bangalore Restaurants)
-📖 Overview
-This project aims to analyze restaurant data from Zomato to gain insights into Bangalore's food industry. Using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn, we perform exploratory data analysis (EDA) to understand pricing, ratings, cuisine trends, and geographical distribution of restaurants.
+# 📊 Restaurants Data Analysis - Bangalore City
 
-🛠️ Technologies Used
-Python
-Pandas – Data manipulation and analysis
-NumPy – Numerical computations
-Matplotlib – Data visualization
-Seaborn – Statistical data visualization
-📊 Key Analysis & Insights
-1️⃣ Distribution of Restaurant Ratings
-Identify the average rating of restaurants in Bangalore.
-Determine how ratings vary across cuisines and price categories.
-2️⃣ Price Range vs. Rating Analysis
-Analyze whether higher-priced restaurants have better ratings.
-Visualize the trend between affordability and customer satisfaction.
-3️⃣ Most Popular Cuisines in Bangalore
-Identify the top cuisines served across different locations.
-Determine which cuisines have the highest customer ratings.
-4️⃣ Geographical Distribution of Restaurants
-Identify the most restaurant-dense areas in Bangalore.
-Visualize restaurant concentration in different neighborhoods.
-5️⃣ Online vs. Offline Orders
-Compare the popularity of online ordering across different areas.
-Understand customer preferences for dine-in vs. delivery services.
-🔥 Dataset Details
-The dataset contains information on restaurants in Bangalore, including:
-Name, Location, Ratings, Cost for Two, Cuisine Type, Votes, Online Delivery Availability, Table Booking, etc.
-📌 How to Run the Project
-1️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib seaborn
-2️⃣ Load the Dataset
-python
-Copy
-Edit
-import pandas as pd
-df = pd.read_csv("zomato_bangalore.csv")
-df.head()
-3️⃣ Perform Data Analysis
-python
-Copy
-Edit
-import matplotlib.pyplot as plt
-import seaborn as sns
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
 
-# Example: Distribution of Restaurant Ratings
-plt.figure(figsize=(8, 5))
-sns.histplot(df['Aggregate rating'], bins=30, kde=True, color='blue')
-plt.title("Distribution of Restaurant Ratings")
-plt.xlabel("Ratings")
-plt.ylabel("Count")
-plt.show()
-📌 Expected Outcomes
-✔️ Identify best-rated and affordable restaurants.
-✔️ Understand customer preferences for online orders.
-✔️ Visualize cuisine popularity and pricing trends.
-✔️ Gain insights into restaurant density across Bangalore.
+## 📚 Table of Contents
 
-📌 Future Enhancements
-🔹 Sentiment analysis on customer reviews
-🔹 Machine learning model to predict restaurant success
-🔹 Interactive visualizations using Streamlit or Dash
+- [📖 Overview](#-overview)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [🔥 Dataset Details](#-dataset-details)
+- [📊 Key Analysis & Insights](#-key-analysis--insights)
+- [🚀 How to Run the Project](#-how-to-run-the-project)
+- [✅ Expected Outcomes](#-expected-outcomes)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [🤝 Contribution](#-contribution)
+- [📩 Contact](#-contact)
+- [📄 License](#-license)
 
-🤝 Contribution
-Feel free to fork this repository and contribute by adding new features or improving the analysis.
+---
 
-📩 For any queries, contact Sparsh Rajvanshi.
+## 📖 Overview
+
+This project analyzes restaurant data from Zomato to gain insights into Bangalore's food industry. Using Python and data visualization libraries, it performs exploratory data analysis (EDA) on pricing, ratings, cuisine trends, and the geographical distribution of restaurants.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **Pandas** – Data manipulation and analysis
+- **NumPy** – Numerical computations
+- **Matplotlib** – Data visualization
+- **Seaborn** – Statistical data visualization
+
+---
+
+## 🔥 Dataset Details
+
+The dataset contains detailed information about restaurants in Bangalore, including:
+
+- Restaurant Name
+- Location
+- Ratings
+- Cost for Two
+- Cuisine Type
+- Votes
+- Online Delivery Availability
+- Table Booking Availability
+
+> 🔗 _Dataset Source_: [Add dataset link here if available]
+
+---
+
+## 📊 Key Analysis & Insights
+
+### 1️⃣ Distribution of Restaurant Ratings
+- Average rating of restaurants in Bangalore
+- Variation in ratings across cuisines and price categories
+
+### 2️⃣ Price Range vs. Rating Analysis
+- Relationship between pricing and customer satisfaction
+- Are high-priced restaurants better rated?
+
+### 3️⃣ Most Popular Cuisines in Bangalore
+- Most frequently served cuisines
+- Cuisines with the highest average ratings
+
+### 4️⃣ Geographical Distribution of Restaurants
+- Areas with highest restaurant density
+- Visualization of restaurant concentration in localities
+
+### 5️⃣ Online vs. Offline Orders
+- Popularity of online ordering
+- Dine-in vs. delivery preferences by area
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/zomato-data-analysis.git
+cd zomato-data-analysis
+```
+##✅ Expected Outcomes
+- ✔️ Identify top-rated and affordable restaurants
+- ✔️ Understand customer preferences for online ordering
+- ✔️ Visualize cuisine popularity and pricing trends
+- ✔️ Gain insights into restaurant distribution across Bangalore
+
+##📩 Contact
+- 📧 Email: [yadav.d.kshitij2003@gmail.com]
+- 💼 GitHub: [https://github.com/Caliber619]
+
+
 
